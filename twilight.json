@@ -891,40 +891,24 @@
             "path": "ssaa.js",
             "fields": [
                 {
-                    "id": "with-bg",
+                    "id": "description",
                     "type": "static",
                     "format": "description",
                     "label": "Description",
-                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/square-photos.jpg?v=1.1'></div>",
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/views/components/ssaa/js.twig?v=1.1'></div>",
                     "variant": "h1",
                     "icon": "sicon-format-size"
                 },
                 {
-                    "id": "qaemt",
+                    "id": "collection",
                     "type": "collection",
                     "format": "collection",
-                    "label": "قائمة",
+                    "label": "Collection",
                     "description": null,
                     "labelHTML": null,
-                    "item_label": "كود",
+                    "item_label": null,
                     "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "qaemt.text_area",
-                            "type": "string",
-                            "format": "textarea",
-                            "label": "Text Area",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "Your text here",
-                            "icon": "sicon-typography",
-                            "value": null,
-                            "multilanguage": false,
-                            "required": true,
-                            "minLength": 20,
-                            "maxLength": 255
-                        }
-                    ],
+                    "fields": [],
                     "value": [],
                     "minLength": 1,
                     "maxLength": 5
